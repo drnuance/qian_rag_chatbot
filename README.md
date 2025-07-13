@@ -29,7 +29,7 @@ Depolyment on Mac:
   1. brew install ollama (install Ollama framework)
   2. brew services start ollama (start Ollama)
   3. ollama pull deepseek-r1 (install LLM model - DeepSeek in this case)
-  4. ollama pull nomic-embed-text
+  4. ollama pull nomic-embed-text (install embedding model)
 * LangChain on Ollma:
   * Start a virtual enviornment (it can be further wrapped with Docker, then K8s for scalability)
   * pip3 install langchain, langchain-ollama (this can be further made into requirements.txt)
