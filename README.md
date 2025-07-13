@@ -33,4 +33,5 @@ Depolyment on Mac:
 * LangChain on Ollma:
   * Start a virtual enviornment (it can be further wrapped with Docker, then K8s for scalability)
   * pip3 install langchain, langchain-ollama (this can be further made into requirements.txt)
-  *  
+* Chainlit
+  * pip install chainlit 
