@@ -23,3 +23,10 @@ Formal unit tests are ignored for the sake of time, which is not difficult to do
 * Compute the cosine similarity between correct answers and embeddings from responses. Ideally, it should be 1.0
   * If it is within the error tolerance (say >0.9), it passes
   * Otherwise, throw error.
+
+Depolyment on Mac:
+* Ollama (Hosting LLM locally)
+ 1. brew install ollama (install Ollama framework)
+ 2. brew services start ollama (start Ollama)
+ 3. ollama pull deepseek-r1 (install LLM model - DeepSeek in this case)
+ 4. ollama pull nomic-embed-text
