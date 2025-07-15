@@ -34,4 +34,13 @@ Depolyment on Mac:
   * Start a virtual enviornment (it can be further wrapped with Docker, then K8s for scalability)
   * pip3 install langchain, langchain-ollama (this can be further made into requirements.txt)
 * Chainlit
-  * pip install chainlit 
+  * pip install chainlit
+
+Run the code:
+1. brew services restart ollama
+2. chainlit run qian_rag_chatbot.py -w
+
+TODOs:
+1. Should use jq and jsonloader to parse JSON
+2. Could add two more modules: Refine search and evaluation
+3. Evaluation module can be regarded as an alternative way of testing
