@@ -44,3 +44,4 @@ TODOs:
 1. Should use jq and jsonloader to parse JSON
 2. Could add two more modules: Refine search and evaluation
 3. Evaluation module can be regarded as an alternative way of testing
+4. Documentation in chainlit.md, such as instructions to users.
